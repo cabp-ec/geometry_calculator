@@ -98,7 +98,33 @@ This class handles authentication and authentication.
 
 ## The InputMiddleware.php class
 
+
 # Testing
+
+## The Approach
+
+I frequently use Behat for Behaviour Driven Development, this time I tried the `FriendsOfBehat/SymfonyExtension` package.
+Unfortunately, it didn't work =(. When trying to run behat from the terminal, an `Environment variable not found: "CORS_ALLOW_ORIGIN"` error is thrown, even though such value is set in both the env.test and phpunit.xml.dist files.
+Eventually I'll try to use Behat without any bundle, for now I'm using Application Tests as fallback.
+
+> **Why using .feature files for testing is a good thing?**
+> 
+> Yes, defining tests in a code-based fashion makes us feel more geeks. But we don't work alone, do we?
+> Implementing test cases could be the responsibility of the Dev or QA/QC teams (or both),
+> while defining them could easily be the responsibility of Product Owners, management roles or even the C-Level (we commonly see this in tech-based startups).
+> 
+> As such, they'll be more accurate and productive using a natural language (i.e. English) rather than a programming language when defining the acceptance criteria for new features and improvements.
+> This in turn lightens-up a little the work load from testers and/or developers; additionally, it helps to create a strong bond between technical and non-technical folks.
+
+## Unit Tests
+You can run tests using the bin/phpunit command:
+
+```sh
+php bin/phpunit
+php bin/phpunit tests/Form
+php bin/phpunit tests/Form/UserTypeTest.php
+```
+
 
 # Apache Virtual Host Setup
 
@@ -106,4 +132,7 @@ This class handles authentication and authentication.
 
 # The StandardOutput class
 
+
 # The BaseController class
+
+## The Standard Output Approach

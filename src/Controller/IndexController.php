@@ -22,6 +22,14 @@ final class IndexController extends BaseController
         $output = new StandardOutput();
 
         try {
+            // Circle
+            $type = 'circle';
+            $radius = 2;
+            $circumference = 2 * pi() * $radius; // C = 2.π.r
+            $area = pi() * pow($radius, 2); // A = π.r2
+
+            // Triangle
+
             $output->status = 200;
             $output->data = [
                 'index' => [

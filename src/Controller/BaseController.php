@@ -60,4 +60,13 @@ class BaseController extends AbstractController
 
         return $response;
     }
+
+    protected function respondData(int $status, array $data, array $headers = []): JsonResponse
+    {
+        $response = new JsonResponse($data, $status);
+        $response->headers->remove('server');
+        $response->headers->remove('X-Powered-By');
+
+        return $response;
+    }
 }

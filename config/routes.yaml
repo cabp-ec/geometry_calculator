@@ -1,6 +1,14 @@
-controllers:
+root:
   path: /
   controller: App\Controller\IndexController::index
+
+circle:
+  path: /circle
+  controller: App\Controller\CalcController::circle
+
+triangle:
+  path: /triangle/{a}/{b}/{c}
+  controller: App\Controller\CalcController::triangle
 
 kernel:
   resource: ../src/Kernel.php

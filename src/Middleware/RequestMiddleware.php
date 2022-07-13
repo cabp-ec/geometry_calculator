@@ -132,7 +132,7 @@ final class RequestMiddleware implements MiddlewareInterface
         }
 
         // 2. Method
-        if ('POST' !== $requestMethod) {
+        if ('GET' !== $requestMethod) {
             $logMessage = "Method $requestMethod is not allowed\n";
         }
 
