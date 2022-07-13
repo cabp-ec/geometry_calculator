@@ -1,0 +1,989 @@
+_type: export
+__export_format: 4
+__export_date: 2022-07-13T03:17:07.831Z
+__export_source: insomnia.desktop.app:v2022.4.2
+resources:
+  - _id: req_b30c00ffcf5547388e27e7ac9e296332
+    parentId: fld_e9317aae306c4645b65d8df2c453faec
+    modified: 1657682194963
+    created: 1657669427144
+    url: "{{ _.protocol }}://{{ _.host }}/"
+    name: Index
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: magento.my-module;shopify.my-app
+        id: pair_48cb6eeb97b84df88a81125f18c75404
+      - name: User-Agent
+        value: Mozilla/5.0
+        id: pair_062f19ac218b48a4a7e31ab682ade641
+        disabled: true
+      - name: Accept
+        value: application/json
+        id: pair_fe08a8b8c30d4c53980bc1228fb3f99d
+      - name: Connection
+        value: close
+        id: pair_4e07628669744c318cb74fcfc1c2835b
+      - name: Upgrade-Insecure-Requests
+        value: "1"
+        id: pair_b20c7a8b793a422aa5baa3ae2c4592df
+      - name: Pragma
+        value: no-cache
+        id: pair_d4d589d5677d42f0a7b1e68e6204cfea
+        disabled: true
+      - name: Accept-Language
+        value: en-US,en;q=0.5
+        id: pair_a5d017d58f414a94863da3c03d4fd149
+        disabled: true
+      - name: Cache-Control
+        value: no-cache
+        id: pair_2cdbbbc7ceb64fc7be27bbf8988d6eec
+        disabled: true
+      - name: TE
+        value: "*"
+        id: pair_0e4ae4a285c24912b965a708cfaa6f3a
+        disabled: true
+      - name: Range
+        value: "*"
+        id: pair_e9f6717d686041a391542aadfacd685a
+        disabled: true
+      - name: Expect
+        value: 100-continue
+        id: pair_57b7b5b648c0410394cb9c8ff65e0e9b
+        disabled: true
+    authentication: {}
+    metaSortKey: -1657061959854
+    isPrivate: false
+    settingStoreCookies: false
+    settingSendCookies: false
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_e9317aae306c4645b65d8df2c453faec
+    parentId: wrk_b3f514b23b34445fa9d59e4ad620ff10
+    modified: 1657669442177
+    created: 1657669427044
+    name: Geometry Calculator
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1648045364205
+    _type: request_group
+  - _id: wrk_b3f514b23b34445fa9d59e4ad620ff10
+    parentId: null
+    modified: 1612397532758
+    created: 1612397532758
+    name: Insomnia
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: env_5495e47bd5894f38b4538e165043fbfb52732808
+    parentId: wrk_b3f514b23b34445fa9d59e4ad620ff10
+    modified: 1655845253619
+    created: 1612397532825
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1612397532825
+    _type: environment
+  - _id: jar_5495e47bd5894f38b4538e165043fbfb52732808
+    parentId: wrk_b3f514b23b34445fa9d59e4ad620ff10
+    modified: 1657284050659
+    created: 1612397532830
+    name: Default Jar
+    cookies:
+      - key: __cfduid
+        value: d4bb097699538c6be630c5f6e39f2207a1617233427
+        expires: 2021-04-30T23:30:27.000Z
+        domain: nvent.com
+        path: /
+        secure: true
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: false
+        creation: 2021-03-31T23:30:28.355Z
+        lastAccessed: 2021-03-31T23:30:28.355Z
+        id: "6154553676882977"
+      - key: PrestaShop-16ce86a6a9511b29588b44b0f6e77f62
+        value: def502003fb89bc3a381ab6a230fa4dc50d12a651ddb937224e277842c02a4589f99fcd53eabbd585fbf45c77a11b94fd7cd567ccdce40c92746eb80e109bf5ad578af13ab8d4f23b515cca066270916750ba7566690ca71fb4b50dd0ff7e0ace95d1eefd93479271ac80b09efb8e8e8810d2f59ad533f76b735abfc854d20c4d5c958c2bd952cde27a8f730cc07b83e06732800364171de2be8e8a14efa9f2d100f60f1b38ac4ed585a550ac51d6ba39a41af3f862146c8d6fb108af1f6f560e709c5685108eda07ce263feabddcecea5c386f7a589b059c5
+        expires: 2021-09-06T03:17:16.000Z
+        maxAge: 1728000
+        domain: stores.ecomm-hub.net
+        path: /
+        httpOnly: true
+        hostOnly: false
+        creation: 2021-08-17T03:17:16.576Z
+        lastAccessed: 2021-08-17T03:17:16.576Z
+        id: "24064521624050594"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Im9FUjZ1NGFOWHUxLzlxMWVGenVCTXc9PSIsInZhbHVlIjoiOGkrNjNENzgwWWlQVVkrWmJWeG9JVnExaWxqNFFHVVZPUTNIZnBjU09pSFdPNTBRSGpiRVlwdXlkSUttVHFoTVJoOFExNzUrczZwSU9tQlVkekRKdjlYWXh0TFUydi9sR0s2cWNseW9PMm51S1oyang3ZkFHMUs1RVFRNlAwRlkiLCJtYWMiOiJkN2QwY2ViZmI2OTYzZDJhZTM3YWJiNTM5MzAzYjE5N2M0NjNkNDM5YTJjMzQ1YTMzYzhjYmMzNGI4NjYwYzAxIiwidGFnIjoiIn0%3D
+        expires: 2022-07-07T22:05:27.000Z
+        maxAge: 7200
+        domain: shop-app.artplacer.com
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-01-27T17:31:23.908Z
+        lastAccessed: 2022-07-07T20:05:27.177Z
+        id: "4813266821092754"
+      - key: laravel_session
+        value: eyJpdiI6IkxYaytsZ011bVNRZWZEZ0RGVDFIR1E9PSIsInZhbHVlIjoieVpwdzBqNW04d3J4aFZDZTBCa2VuaVRGT0hYTk1VYlJheVVmSTdOQWtkZzJRdVkrR2c1SSt5a0h2Y2hQbWlhZ0t5ZHVqeVduc0JmYURydmIxYVVUZTdwVFFHcllmU0J1SmN0UUtZeEU1WGE4M2xEVk9iYVNNSWQrYkhtY0JmazUiLCJtYWMiOiI5MTUxMGUxZTYyNjFlMGY5ZWZkZmRmMmM5OTc1NGNiMTAxMjUxNjdhODE5NjZiYzVmNGQ0NTgxMGJmOWRkOTliIiwidGFnIjoiIn0%3D
+        expires: 2022-01-27T19:31:23.000Z
+        maxAge: 7200
+        domain: shop-app.artplacer.com
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-01-27T17:31:23.908Z
+        lastAccessed: 2022-01-27T17:31:23.908Z
+        id: "9277351699474494"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IlpmWEV5YmVSMXpkdldFeDJ1UGNKRlE9PSIsInZhbHVlIjoiZ0NIa1RaS3NzbVExOVE0TkNNdk5ZbkQ0QnA0Rjh2ZlI4aGJqZmpETm5UbW96V1Rpbm5SeU9sOGMrNWpSVmtiWXNESzJ2SlhuVG5BeXcyOUEySktNYlFxVXVneFQ3MnBjTDc2bi9DVmxFc3lwNEhOaHBKWFhrOU5RWE5PdmcrYzciLCJtYWMiOiIxN2M1ZmEwMTNiMTJjYWJkMTU1Zjg2ZDI0ZGU1MGI1Y2Q4NzhiOTFlZTE3ODhhZTg4OGRjZDFlY2I2OGRlOTlmIiwidGFnIjoiIn0%3D
+        expires: 2022-03-14T01:26:16.000Z
+        maxAge: 7200
+        domain: 127.0.0.1
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-02-06T21:40:19.272Z
+        lastAccessed: 2022-03-13T23:26:16.500Z
+        id: "7043663425886688"
+      - key: laravel_session
+        value: eyJpdiI6ImtpYWNMQUV2ZEN4Ky9PbG9uZVdNMXc9PSIsInZhbHVlIjoiUFFKRHA4MkpvbEUzcVRyc1A4SDc5a016TnRaTzBqVG5Pc1hqYUJoMUZ2T0J6ZURoVkZqM0xGNTdieWNVMFF2bWdyc3lMNTZwQnduMkpvNmkxWWQwbkZuY1VSQTRFQmdGd1E4L21tSnBwUVNHU2hQK2xPYXZBU3BGbUYxV01aOFIiLCJtYWMiOiI4NWE1ZTI5MjE1NDhiZTA2NjAxY2RkZjEyMDM1OWYxY2IxYjRlMTliNzBiNmE0NTNhZDc1OGY4Y2FmMGQ2YjYzIiwidGFnIjoiIn0%3D
+        expires: 2022-02-06T23:43:54.000Z
+        maxAge: 7200
+        domain: 127.0.0.1
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-02-06T21:40:19.272Z
+        lastAccessed: 2022-02-06T21:43:54.534Z
+        id: "519893391419376"
+      - key: artplacer_session
+        value: eyJpdiI6Ik9kaUlKdFgyNFdUcTc0a29uMkJJSWc9PSIsInZhbHVlIjoiMGNOeG5jMVhBeEFFekdqaGNMUmFVczZwNDBMeVFjYWkxT0lqa2dZZWN4cnZhbWlLTkxhdDNwMEpLSGRaYi9WMUwxNjFBK0l3QitsNjYwRDFtU29IcjVDRjFPYkV5KzU1bktweVpTOVdFcjlhTzd1RDk5bHdyZXZzUGk1ZTVXamEiLCJtYWMiOiJmNjBiNzgzMjNmYzIyZTBhNjY4NWFmMWY1ZTA0ZmZmNzI3ZDRlOGEwYjU4NDAyYTFiNzU5NTJiYzc4ZWE2YWQzIiwidGFnIjoiIn0%3D
+        expires: 2022-03-14T01:26:16.000Z
+        maxAge: 7200
+        domain: 127.0.0.1
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-02-09T07:29:44.271Z
+        lastAccessed: 2022-03-13T23:26:16.501Z
+        id: "18626715192258736"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IjFnQlRSQzUyZWZtbWNzLzMzd29zSWc9PSIsInZhbHVlIjoicDRyQTk2TWtBZmdrWjduOXMxVmFCQWFwcTA5Y1I0ZXJMVW5DU2RQZGV3UjBEOE5rWHc1M0JHL1JkeHZzTGVlWm1kRUNCdjh6eFZNWkNiS0hrMGxHU2hlbTYyeHRML3plM0paY2s1MVZhYjVGOEM2N1lSZ2ZwQkdsK2R3TFpLWUoiLCJtYWMiOiJiMjg2MjlhZjcwMTU2YzI2N2FmMGFiZjlhNTNlOTY0ZTAzOWI2ZGUzOGVkZmVhNTZjYTBkMzkxYzc2OGU1ZDgxIiwidGFnIjoiIn0%3D
+        expires: 2022-02-15T05:04:36.000Z
+        maxAge: 7200
+        domain: dec3-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-02-15T02:02:01.056Z
+        lastAccessed: 2022-02-15T03:04:37.864Z
+        id: "42817721103687734"
+      - key: artplacer_session
+        value: eyJpdiI6Im9KRHFVYitEdmxDTTJYNk5qdXAxelE9PSIsInZhbHVlIjoiUEppTDZPejBsUDhKeGZ1SUxab0dJVUM0TzRxdlA3alp4cGRzTTdtUXlrTFpjcWhFOWl2WXNRTkV6Q3pjNHZnYVlPOUt4TlZSUVJnMS9ySjRCR0V3SzVCSVE5SW85c2lSWjJ6SDJQcGpCVHBGUnh0YzFMTGJHc05PQTVCeGgvMXgiLCJtYWMiOiI4ZWVlNzQ1NDAxMGQxM2RkNTY4ZTE5NGMzYzM2MzE4Mzg1MzI4OGVjODAxZjIwMjY4ZjAzZjJkY2Y0OGY1Njc4IiwidGFnIjoiIn0%3D
+        expires: 2022-02-15T05:04:36.000Z
+        maxAge: 7200
+        domain: dec3-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-02-15T02:02:01.056Z
+        lastAccessed: 2022-02-15T03:04:37.864Z
+        id: "4525383943321146"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImJsT1MraTQydEhwYkZiRnNZakJxWlE9PSIsInZhbHVlIjoiVFEyZkFxZjJOTVYxeS8xRjBJcTAzcUszZVgwNCs3VzZLYkY0TFZWeXQ0WUpabTlVT3RvZjZMWFlqQUF0VWZqQzBIOHdnekRiQjBFTWszSWNnK0g5czJrZkI1c0c0c0piTTh0blRJM0pwcEdvaFBFejV2QmtkQXZhalRNRWludnciLCJtYWMiOiJlNTg2ZGI5MTNmNTdkODJkMTYzNzRlYzYxMzMzODUyZjY1YzNiYjk1ZmFhNGNkOTQwOGFlZTA0MWMyNWFjMmU0IiwidGFnIjoiIn0%3D
+        expires: 2022-03-14T04:39:15.000Z
+        maxAge: 7200
+        domain: 5dde-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-13T23:29:31.300Z
+        lastAccessed: 2022-03-14T02:39:15.357Z
+        id: "1997833463274541"
+      - key: artplacer_session
+        value: eyJpdiI6IlA1WGpQcTZZUCtYSkx4WitRM1ppR3c9PSIsInZhbHVlIjoiZGEvekxxdEFHd3Z3QlhGclhxcWlPNTZiWGx1K28zZGRLc25SQWhYUXlOUWsrMWx4UnYxRkxIMmNERm9yR3l4RTk3Y1FQU3lNQWk0WG9jcTZWcjdaUit6c2d2NDdqaHRsdmtSa2NmNFBFT2FnN3Q4L2ZjUzNsdWE1YVdQdzBNMHoiLCJtYWMiOiJlNGQyNmYzNjkwMzlkYmJmZDVlNTFhNzU0Yjg0MWMxNDQ1ODFhZjc2YjNkOTY1M2JmODViYTE5NGI1NzgwMDUzIiwidGFnIjoiIn0%3D
+        expires: 2022-03-14T04:39:15.000Z
+        maxAge: 7200
+        domain: 5dde-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-13T23:29:31.301Z
+        lastAccessed: 2022-03-14T02:39:15.357Z
+        id: "23526424019457215"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImFCcFd5Z2FEUWpJVHNSdXBScVJhMFE9PSIsInZhbHVlIjoia0phU0E5cVg0SVd3c1lCMGFWM3FPbTVEbGpROWt6UzJVbzlMTWlmZTMrZm9WTDZNcW5SaEdTY1FiU3VIUm15YWlENmppWTRlQ2dDZjRiNHoyeWw3QkxXNHJqcmJ1eVhyYU5pSjVJVTBOcjdyREZscnlvMGxKYzYzVHhicUptTlgiLCJtYWMiOiJiZWE2MjFiZDFiZjNkZjAzMjBkZmFkZDJmYjQ0ZjkwYmZmM2ZkZjRjMjQyZTAxNWQ1YTVlYTZmZjhhNjlmMjQ5IiwidGFnIjoiIn0%3D
+        expires: 2022-03-15T02:29:19.000Z
+        maxAge: 7200
+        domain: c193-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-14T15:04:27.531Z
+        lastAccessed: 2022-03-15T00:29:19.463Z
+        id: "5648639944950851"
+      - key: artplacer_session
+        value: eyJpdiI6IkhDVDhWa2cyYVNJclJkMWZ6eFhJL1E9PSIsInZhbHVlIjoiU2NqQmU1MUZYb2dwUm5jNHdBQlF6SnBtb055KzNiZVFEMFo1cVJSTHZVSEEycGFMZHRyUXd1S3NBdHdSekZTaXNZcmgvRFFjRjRnaHd4MTIxYjFMZEp1eUdiUGhwc2pjRG9rQjBvNFY2VFdYS09lMDZQSkMrQXRNbVZucGEwb20iLCJtYWMiOiIxYjhkYmZkMTI5ODgyYzIyOTc2NmU1ZTViODUyOGRhMTFiNWFjN2E0YjBkMDY5YjdiYWI2NzhjM2E1ZjU4NzE0IiwidGFnIjoiIn0%3D
+        expires: 2022-03-15T02:29:19.000Z
+        maxAge: 7200
+        domain: c193-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-14T15:04:27.531Z
+        lastAccessed: 2022-03-15T00:29:19.463Z
+        id: "6663250952055202"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Ii84Q1hrWkcybVRRQ2J6VzRmM2ZaZ1E9PSIsInZhbHVlIjoiVGp2d0xnSnpEeVB0dDRyTm5GQ3JOZUF1NW4wL2d4UnVPSllSZ2pMaG12WGpWUUlsUzJQbUVDa05oMzd6SGZaTVNNajg2Vi9jOGJXSUpwVG5BOWs1SnpuYTgxcUJhUk8zOTdoMURRb0cxNWdpdWJaK3R1M3ZCYUhkQWtRT2NyeCsiLCJtYWMiOiJkZDRmMTRhMzcyMTYyMjU3ZmFiZjA5ODA3MzlmMzQyNjBkODkyMGQzNWIxZWQ4NmM4MzgzZDIxMWY4N2U4NDRlIiwidGFnIjoiIn0%3D
+        expires: 2022-03-17T02:53:20.000Z
+        maxAge: 7200
+        domain: c7ea-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-17T00:29:36.888Z
+        lastAccessed: 2022-03-17T00:53:20.487Z
+        id: "8600779269922587"
+      - key: artplacer_session
+        value: eyJpdiI6Imc5UTFub1ptWER3bW90b2ora0M2aFE9PSIsInZhbHVlIjoiMVlpaEhvcCtkdytTUWtRdm45RXFCdk4rMUlXOUY2QmYxeUJUYlVSd0RJWWhrVXlQVkc5OWF0czZvblVFTVNUT0Z2dHdqbEpTUkVGbG1adE9tdk82OE5FNlFRN1p5TWMxMnRaQnlUaW9OUGgxVW1waGNlQnVoQ1ZUelFzSndkbEYiLCJtYWMiOiJiNjc4OWY5NDg4N2MzZmI1NDUxNzJlYzk4Mjg5MTEwNmM0ZGZlMDljYWQ1ZDZiZDU2MTgzNGM4OWIwNDYyMmZhIiwidGFnIjoiIn0%3D
+        expires: 2022-03-17T02:53:20.000Z
+        maxAge: 7200
+        domain: c7ea-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-17T00:29:36.888Z
+        lastAccessed: 2022-03-17T00:53:20.487Z
+        id: "22228268315826938"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImdCQkZKSnRyYlJSZXlkYjBrbm9UVHc9PSIsInZhbHVlIjoiSHlEcjJTeTdnVG5hSGl1bU91WUxYcnhqVEo1WklrMGlhdXVyRVl2WnV0dHg4c3pUWUE0U0prdXZ5T3ZYTDBGcjJoQ29pU2RXWk1KSkhETDRHN0FDVE0xM2QxbkpnVld4MjhRdUJVS3A1MkEzdjQxdStXbGw3ZllQeE1FTUg1aXUiLCJtYWMiOiI2ZmQwN2UwNDg1NTQzMDIyNzQ0YzQwOGY2Mjk2NGNhMTljMzI1NmI4MDRjYTBkOWM5NGI5ZmFmNzkzMzRiZjk5IiwidGFnIjoiIn0%3D
+        expires: 2022-03-19T02:36:51.000Z
+        maxAge: 7200
+        domain: 5c84-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-17T17:05:43.211Z
+        lastAccessed: 2022-03-19T00:36:51.857Z
+        id: "07631277630727751"
+      - key: artplacer_session
+        value: eyJpdiI6IjVqdHl1aTZDK1ZLWVVtSXYxSFFXTVE9PSIsInZhbHVlIjoiclQrV2R3VGJ0NnFLa0xVZGlCYm9nckp5bDdLV1BjSlRmQjlsTTExRzFkQ3hwVnEybXhpa0hmelRlcE81UmdMeDdqQjM5RjBMWEFwVmN6YzRNb1RJQ3VhSG5SMEdTb05hWXFWeGxsbEwxKzR0aEFlYTdzYWxpNHNKNURGdWJmT2MiLCJtYWMiOiI5NzAxMjRmMTQxOGJlODBlZmJhYTRlZjI1MTZlOWEwZGI5NTlhODg0MzY3ZjAxNjVjMjI2NjFlZDdhMWIyMTZkIiwidGFnIjoiIn0%3D
+        expires: 2022-03-19T02:36:51.000Z
+        maxAge: 7200
+        domain: 5c84-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-17T17:05:43.211Z
+        lastAccessed: 2022-03-19T00:36:51.857Z
+        id: "6105843443109196"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Ikh5STdJL2laQXlFa1p1cUo4b2xHSVE9PSIsInZhbHVlIjoiaVowTmdIS01DSGMrcWo1S0tRWEtlRjFZeE56cWxzRG05b1doeXpYVnVZaW5kNDI4TGlTcDNpUHc1eG4wNDNGVzdtZE51MlVYQytldWNyUWZNMGVydFIySUNWVGJvYmdTZVJEcWRDUGlnZWExMnIySzF0SWphZXA3MDRPU3FRbDYiLCJtYWMiOiJhZGY3ZjY0NjhjNWRlMzFjN2I4NjA3YmNlNmMyMGExZDAxOTVmODU4YjIyYTA2MDcwNjRiNzFlNGUyZjQ0Y2U3IiwidGFnIjoiIn0%3D
+        expires: 2022-03-21T05:53:51.000Z
+        maxAge: 7200
+        domain: f83a-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-19T18:22:56.859Z
+        lastAccessed: 2022-03-21T03:53:51.943Z
+        id: "42581103871599524"
+      - key: artplacer_session
+        value: eyJpdiI6IklxUnlyeVR6RGxjcWtRcWgrTThWbkE9PSIsInZhbHVlIjoicmgwbkhzWVhuOWhhVmZYbjBVQmxRekZkMGE3akJUbU4zMUZDZkhmVEZmbVhTVysydTRBNjRWSmc1YVJhQkl4eUkxazJQUW1lMlFTWFZ1djhrOFQ3MTFieFphMzdlbURpWEhxRFM0MjJCK3hzbVM5RCttTVFmanE2ampZYXcyY2giLCJtYWMiOiIzMjFjNGIxMzQyYTI4OGVmY2M5NzBjZTkyM2M4YzNiZDEwMjk4OGU4ZmUyYmUyNzQ1MGRhOTg3MzE2ZGM4ZjY2IiwidGFnIjoiIn0%3D
+        expires: 2022-03-21T05:53:51.000Z
+        maxAge: 7200
+        domain: f83a-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-19T18:22:56.859Z
+        lastAccessed: 2022-03-21T03:53:51.943Z
+        id: "6623394902596731"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImZYNzJLM3hERjhMTEduUVBnVjdUZ1E9PSIsInZhbHVlIjoiOGo3Z1VPTmt1V3lSd0NSbVFzWTZDMW50NUdYN0pGNzNOdkhMWFpqNU5hWUtSTkNrb091VXlVM3hQT2pOb05SOHUrZGpWVERkVHBjem93QWQydFQ0NWtFU09TWG8rMHhPT1UzYnlGbXpqczBScFBhK1A3bDBhZjlJQUF1bWxPV0MiLCJtYWMiOiI2ZTU0ZjhjNjg5MmMxMmQ1MDNlNTBlMTRmZjBhMDAxMTRhM2UxZTk5MTc0YWY0Zjk5NjhkMTczNDBlMGY4ZTgxIiwidGFnIjoiIn0%3D
+        expires: 2022-03-22T23:30:36.000Z
+        maxAge: 7200
+        domain: 938c-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-22T02:06:34.842Z
+        lastAccessed: 2022-03-22T21:30:36.355Z
+        id: "2078887157671614"
+      - key: artplacer_session
+        value: eyJpdiI6IkZBRit1a3pSWE0zVHBKcTgyZW1Qbnc9PSIsInZhbHVlIjoicCtkdW1YOXVCRWZma21PL2c5Y2dPZ1duWVNlT1NBcXd2eG9pbGg5ZWg1OHpVL3hyMVVNMlRIUHFHMDl1aDUrZ1I5aFI1UnVNNEcrekV6SU9hamxZR3RpVXNWcGpjVHdvVkRCVzA0UW90ZGIvZXNlSUxjS3N4aEhVbXpNNmNEN1ciLCJtYWMiOiI2MWU2OTA0OTViMmE2YWQ0ZjljZmFjODA5ZWI5NTQxNDZjNzZlN2MyZTFmZjlkZWRmMzNhNDA1NzE4YjE0YTY5IiwidGFnIjoiIn0%3D
+        expires: 2022-03-22T23:30:36.000Z
+        maxAge: 7200
+        domain: 938c-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-22T02:06:34.842Z
+        lastAccessed: 2022-03-22T21:30:36.356Z
+        id: "6726840960371687"
+      - key: PHPSESSID
+        value: edc4qn3jqs8pdp129rfa4c9jli
+        domain: localhost
+        path: /
+        hostOnly: true
+        creation: 2022-03-23T17:28:21.771Z
+        lastAccessed: 2022-03-23T17:28:21.771Z
+        id: "3611722912040891"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImR5RmlwVWtxanMvdzNYRUhFc3FjMEE9PSIsInZhbHVlIjoiWjJ1cURnOTJqeXJydFc5K0NFNXhMQW8rK0dzQTFva2tVSG1NVzU5bnRNTXVjY3pNYXBrdjhPRDI1S0VTOEowRGhoaVg1ZHJ1ZC9JdTQzOGVvK1ZJT0wzZS9PTEU1MmRVcWZBbEF6WGxyTzNGUmNJdFZCeWFrRlIvbDZ1SVBhTGYiLCJtYWMiOiIzYjRjODEzYzU1NTk3YmUyNDdhODVjMWNhZDFiZjQ2MTZhYmJhN2Q0YTA3YjY4ZmQwZDAwYmQyOTY2NWY1YmY3IiwidGFnIjoiIn0%3D
+        expires: 2022-03-30T00:02:31.000Z
+        maxAge: 7200
+        domain: 6056-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-29T14:57:41.742Z
+        lastAccessed: 2022-03-29T22:02:31.299Z
+        id: "940653205176331"
+      - key: artplacer_session
+        value: eyJpdiI6IkhKa2EyZHU5S3lLTkVVRUpBc2lYR0E9PSIsInZhbHVlIjoiMEpWV1FLd0pYRFZLM0pSaXQraXkyZERuS0JzNGtsMmhISERlbTkzditENXpxd3JGdGExcTd2QmhralNIRGRCTWZDWkFnay80K1ZMMWpoMWxvVHZBWEJVSXZ6WlNZb0IzUW43NnpMczNhNVRsT0ZVanczRlpGOWJjZXh1WVlaUUYiLCJtYWMiOiIzOGM5NjJiNjg1Y2FlNTkyNjA0NGJiYjlhNzJkNzRmYzliMmJkNmFkMjVmZWRiOWIwN2Q3NmI3ZWZlYmJkZTJlIiwidGFnIjoiIn0%3D
+        expires: 2022-03-30T00:02:31.000Z
+        maxAge: 7200
+        domain: 6056-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-29T14:57:41.743Z
+        lastAccessed: 2022-03-29T22:02:31.299Z
+        id: "8029053663777657"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IitTVEJpSFNHL0U2QlZ0UG5LSUFFNkE9PSIsInZhbHVlIjoidXZoVVZrUi9xbWhDRmozVDRpVTZsQXBlTGV1cUVFVkNoeFRzbFd3RkFuMHlmWllrdnQyZTVsM2pTak9WdWlkejFCazl3cnRhZ3dXcngxRjQvTWd0QUxkbVNzN0xtenR0SUpXTkdFQ1dMM0tXVUJBOXJFNUlwaHF5SjBzWnhkQUMiLCJtYWMiOiJkNWY5YzU3MjljYTZlYmM5YTM2NmEzNmQyNGUzZDU4NTE4MDVjYWZjZGZkMzhiYTY4M2NhOTc0NThiNjZlYjI4IiwidGFnIjoiIn0%3D
+        expires: 2022-03-30T20:29:14.000Z
+        maxAge: 7200
+        domain: afdc-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-30T17:58:37.909Z
+        lastAccessed: 2022-03-30T18:29:14.394Z
+        id: "47587409829326677"
+      - key: artplacer_session
+        value: eyJpdiI6Ill2K0tKYjNka1A1ZFdBemtvY3lJNnc9PSIsInZhbHVlIjoiYVlQQlE0RGVleDhaZllPcENaWFQ2RmJITmdzUXY2aHNpdTF0ZzZRRENTclExM2s5V3Vkd1grQ290Rno2OTFnbndxTS9FajNTYlZzVDJkNzM1NHpJc05MdVZOdjdpbkp0ck9ZZ1VoM2Vsd21wUzh0RlFmVXJOb2h4SGhRbEU0NEEiLCJtYWMiOiI0OWYyNzhmMzA4NjYwZmVjNTExNTEzZWVjY2Q1ZjdhNGJkYjlkMmNhZmE2YmUyNTA0NGVhYjYyMzhiNGRkNjEyIiwidGFnIjoiIn0%3D
+        expires: 2022-03-30T20:29:14.000Z
+        maxAge: 7200
+        domain: afdc-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-03-30T17:58:37.909Z
+        lastAccessed: 2022-03-30T18:29:14.394Z
+        id: "3997677350682938"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Ik5pbGY0UGUxV2NvaUMwTFJJUzkxN0E9PSIsInZhbHVlIjoiSXQ5NXFqZUQvSUg3aW1aaTBNUmVjN2h2TXp0cjVNczdqRFZwWEFmSVhVcWV4VFhYK0piRjJIbjdxek1LT2kzb3NrclRZdGxwcklDZWZZV3JtVWhDQllyZmc5MENLaW0xYzhIMFo2WkdVYTRWdzZLQXlLbzJuZlVyWURqTmRyMGMiLCJtYWMiOiJiZjA2NzM1OGUyNzkxOTA3MjljOWFkNTg2YzY5YzAwYzdjODNjYjllMjQzN2NiZmIyNjJmMjBhYzFkZjY5NjU0IiwidGFnIjoiIn0%3D
+        expires: 2022-07-08T14:40:50.000Z
+        maxAge: 7200
+        domain: artplacer-shopify-staging.herokuapp.com
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-04T19:58:02.843Z
+        lastAccessed: 2022-07-08T12:40:50.658Z
+        id: "9576620956296944"
+      - key: artplacer_session
+        value: eyJpdiI6Ii9DQWFZbCtkTEV0UmJMRXFUQjdmeUE9PSIsInZhbHVlIjoiNGdWZW1uanlJdkFzeDZReVEzQ1Rsb3N2T1c4T1U1djNBdXFhbCtab1VGTGtFUWpQb1RYdmM4UVl3dElreU5qRU5xZ0V5WnNsZFRNenNuSnJRQktGaTFmNVJ6eUhvL0lpTUFYSWw5aVN5TjVKekFnQkxnNFU1VkNMcDlLYmxhcnQiLCJtYWMiOiI1ZGFkNjI2NTQwOTNjYmU0ZmVmOWQ4Yzc0YmNkMGM3ZDE4ZWFhOTczMjYzMzQzZmM1M2M3ODMwODFjM2I1NTBjIiwidGFnIjoiIn0%3D
+        expires: 2022-04-04T21:58:02.000Z
+        maxAge: 7200
+        domain: artplacer-shopify-staging.herokuapp.com
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-04T19:58:02.843Z
+        lastAccessed: 2022-04-04T19:58:02.843Z
+        id: "03966255176306355"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IkROTlRGSXF3cUpEY2tYZUZDcm5YTFE9PSIsInZhbHVlIjoib2JNZzE5N2pTcUJDd09pWnB1aDBLMW5MQ2dqQUwrYytxeFlzQ09YNFZTbmdQRG9QcllGMnQ0YlF6eUl4RHBNckdmK3RmSzkzNnhDaXY2WG14TFZEZ2hOUU52Qll3NFZFTE9GTXFoTkgxN0xnWCt3RU5xWkVheG5sNEJWN2RuekwiLCJtYWMiOiI1ZTRlMGRhYTY0OTIzMDRlZjAzMDEzZWEzMjFiYjc5MzdlYmMxZWFjYWRkYjBlYWFlZDg2ODlhOGFkZjQ5MjlkIiwidGFnIjoiIn0%3D
+        expires: 2022-04-06T04:09:46.000Z
+        maxAge: 7200
+        domain: a435-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-05T12:23:50.118Z
+        lastAccessed: 2022-04-06T02:09:46.176Z
+        id: "7798918749477157"
+      - key: cabp_development_session
+        value: eyJpdiI6IlNwejNYa09VQXRBL01Xd3NNSWo4U2c9PSIsInZhbHVlIjoiSUd5bmozZFMzMENseU1GbWh4TkNWR29TMmd1QVd6Z2ljZG5ZMHBwUzBDcDdPOXNYbTlXV0VqQlRVbWtWOTBQYTBBaHd4M1YxdmJTd0k3bEZkOVFQUDFoSXUvSysrL1FFYTdSeTRSOUNSL01LNDdkSDlSSCsyZzQ0dnpLYm5NZDciLCJtYWMiOiIyNGQ0MTY3NzE3YWNiMzc2OTFkNGQwNDYxNjY4ZWU0YjVmZDQ5YjJhNTQyM2YxMGU0ODYzNzVlNzc0YWFiNGYzIiwidGFnIjoiIn0%3D
+        expires: 2022-04-06T04:09:46.000Z
+        maxAge: 7200
+        domain: a435-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-05T12:23:50.119Z
+        lastAccessed: 2022-04-06T02:09:46.176Z
+        id: "2783716371097187"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IkhEYzdYSHF3TG1RWldNLzJqUFozNlE9PSIsInZhbHVlIjoieFJYaDZvWk5mbklzSXNyR2traDc3NmpONUhwTjBGczk3bndLU2wwd3RLTThxT0VjNy9LUGZaOElLYXNSblY0VytVeVlWSFJPS2xnZnR4U25BdExWd0pmYXcwNnZKVENqSFA0K3pMSDFQV2VKallBR3RPNUg1dll0S0hlYkE5NTciLCJtYWMiOiI5YzYzZGVmMzgwYzRmNTY1Nzc4ZDk2MmFkMTBhMWRkNzU4NWI4MzAwZjUxNmRiMTgzZjgyYTRiMjhhNWYxMDcyIiwidGFnIjoiIn0%3D
+        expires: 2022-04-07T17:33:05.000Z
+        maxAge: 7200
+        domain: c80d-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-06T15:16:04.082Z
+        lastAccessed: 2022-04-07T15:33:05.873Z
+        id: "9642845942848475"
+      - key: cabp_development_session
+        value: eyJpdiI6IkNzbFc1alpwWU9HWG5nemNXUGdpQnc9PSIsInZhbHVlIjoiQVdadzJESmEySVpidWpRbVVEOHltVWRwZE0rV1paV09la3RHUjNIUVllcHREaHlyMWs2M1BaOElUcC9rVFArL0ZGVmJFNUQzRkVIOG04azMrNlFEa1F4WXhTdEhucFVsU3ZhTEQzNmRFTk9ncmJVR2ZXdjV0QVdPbkpTVUwxSmsiLCJtYWMiOiIwM2M2MmE2YzQ4YWQ4YjhmYjIwYWZiNDk4N2NjOWNmM2M3YzMyZTNjYzk0ODM1MWM4ZTkwOTMwMmE5OTAwYzVmIiwidGFnIjoiIn0%3D
+        expires: 2022-04-07T17:33:05.000Z
+        maxAge: 7200
+        domain: c80d-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-06T15:16:04.082Z
+        lastAccessed: 2022-04-07T15:33:05.874Z
+        id: "19238048822357734"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6InhmK282RkNlaW4wVUhyRmNqcGo2VGc9PSIsInZhbHVlIjoiSlRRaUFMZmhvZW1pZjJzWnRIWHpVNzVSSUhJMzUvQTdRMDdCd1VILzIyLzk5cEFBL2JiYzJhUXBtSGpBaHpxcTNITUpLOEpHdjVhajZsNzlOREdQMjJnUWdrNE1sQ2NSWEV4UllMOVQ4Ui8zMkRnV2piN29QN09DSnUvMWZudDciLCJtYWMiOiIyYTliMzBmZDExNWMwYTQ2MzZjZGVhZmJiZDA3ZTRiMDJhMmJlNGVkOGFhNzgxYzBkOWM5YjNhZGZlY2M2MmE0IiwidGFnIjoiIn0%3D
+        expires: 2022-04-13T04:44:54.000Z
+        maxAge: 7200
+        domain: 92a9-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-13T02:29:02.825Z
+        lastAccessed: 2022-04-13T02:44:54.910Z
+        id: "8069744154072396"
+      - key: cabp_development_session
+        value: eyJpdiI6Im5DZElhWnlCVkhmdUlYL1dRY21jSFE9PSIsInZhbHVlIjoiRzVIc2xaOEIrM3dtbTU0dlA1S1RiLzdvN2dqVDZJL0YwZlRvdmtyVVVGTGtBMHlOZnJISjh0MjI0YnF4ZWJac3BuUlozOVVpUUJoQW1rVjNyN0tnUW5PWWZtc3RieFk5SlBPY0VVbUxCd0FsRmlGaVFINFZWQ1B4a1hJM2w3OGwiLCJtYWMiOiIwZGQ5NmU3MWMwY2NiOTNjZjEwOWRmNjIyNmZkYjA1ZmUzODVlZGI1MTIxY2Q5NmVlYzQ2NGE2YTdjOWMwMTg3IiwidGFnIjoiIn0%3D
+        expires: 2022-04-13T04:44:54.000Z
+        maxAge: 7200
+        domain: 92a9-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-13T02:29:02.825Z
+        lastAccessed: 2022-04-13T02:44:54.910Z
+        id: "14478693657025055"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImplNjJSUW05VkVPZm45dUhTTWNZaXc9PSIsInZhbHVlIjoiSWtFN2psN0owSVM4WGdpblRwYTUyb0R5Zm9EM2NpWmdUM280TkhqTDYrbFM0RWowQzBsMlZWcndhSGhZa3AxcVdDdjlnUkgxck9lN0xQUkVEaWlORzRlSFNkNU84TER3RzAzdVZMSURCQzVlcmV0MkxvbU1ZZExHazZCSENvMnciLCJtYWMiOiIwMGNhNTNkMzM5MGYxODhjYzljZmZjNTQzNDQ5MTUzM2Q3ZjI1NjI3NjU3MTVhMTNkYmNlZTNhNzdhNmMwOTFlIiwidGFnIjoiIn0%3D
+        expires: 2022-04-20T06:00:05.000Z
+        maxAge: 7200
+        domain: c998-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-19T16:26:52.909Z
+        lastAccessed: 2022-04-20T04:00:05.332Z
+        id: "9105119717169459"
+      - key: cabp_development_session
+        value: eyJpdiI6ImVSRVE2Q0hLWUNmVjVuekd6QmFJbVE9PSIsInZhbHVlIjoiVjFtQnBtQ1BjRkFTV0dmNGc2em1UM0Nudy8zVis4RzczWVBJWk82S05SUDRCdE5sRTdSeUpFb3NQdGk5UFhkaHViSFNxY2hFS2JVZFlkMDFXR3hNMmFpYmZlV2libVNucUJaT1F1c2w5bkJud0ZjaENBbWFnM1RsTlh4bEJPYkUiLCJtYWMiOiIwYzQ3YTBiNDc4M2U3YzVhYTA5MDI0MGI2MzZkNWQzNDczZWE2NDc3ZTI2NDNiMThmYjg2ZTg3ZDEzYjU3NzZjIiwidGFnIjoiIn0%3D
+        expires: 2022-04-20T06:00:05.000Z
+        maxAge: 7200
+        domain: c998-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-19T16:26:52.909Z
+        lastAccessed: 2022-04-20T04:00:05.332Z
+        id: "6318586383832447"
+      - key: artplacer_staging_session
+        value: eyJpdiI6IkVELzE3R09GZXd4UlpwV1o3Kzg0a0E9PSIsInZhbHVlIjoieEJTQWNEVFMyODRqcFRaMlVTTVR2ZmVYTHVxQlVWY094VUE5N1dmVTgwMUtDQUY5OXZDa0lxUWYyVmE4TURjSjVCWnlhRTlGTWtyUkIzd3RUUXl1RlQyQ0FjOFIra25nbDkvL01mdmVTa3NYbWdFdmtXMnJSNm5CQnk4RlFuSWoiLCJtYWMiOiJlMmFjMjJjYjU4ZTg1NjE5NGZkYjAxYmY2NGIxODRiYTcxMDYwYzk3NjZjNmQzYTcxNWExOTUwNGFiNzJkMjc3IiwidGFnIjoiIn0%3D
+        expires: 2022-07-08T14:40:50.000Z
+        maxAge: 7200
+        domain: artplacer-shopify-staging.herokuapp.com
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-20T20:15:02.737Z
+        lastAccessed: 2022-07-08T12:40:50.658Z
+        id: "9286813314102447"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImRLNzNGNk5odVFITVJTNzBUNXJrelE9PSIsInZhbHVlIjoiYmYvUWhyby8wQkxJSm1yVWVoeEF6MjJRcEpFTEc5Y0NNNDlhL3lYWlN4dUwxbkNKU2tEbHlzWW1mVU1DeDRhdnlrYTRLeXlURWltSFFKWVpqQWlOS0FOVDRmc0hvR2YyS0plSzBZemlXS2JEUGtrMDFHMWRkYXhDQ1ZGYllaZFYiLCJtYWMiOiJkNGQ1ZGNiMDI0NTA0YzNjMzIxMWM2MDE0NDE3OTkzMWE4ZjcyNzM2NDI3ZmYzNTQ1ZDNkMjNmZDg0ZmQwMTI5IiwidGFnIjoiIn0%3D
+        expires: 2022-04-21T01:45:18.000Z
+        maxAge: 7200
+        domain: 2964-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-20T20:23:36.680Z
+        lastAccessed: 2022-04-20T23:45:18.218Z
+        id: "514221049780929"
+      - key: cabp_development_session
+        value: eyJpdiI6InFyT2JCQmJROVpHRWc4cGFuT3ZVWFE9PSIsInZhbHVlIjoidGxYTGs1aDgvbHhuaXhJdGJJeE83d01hZnNNTU4zeVM4UDBuZzJObUsvSTVPL0lia0VOZUZiUEExbnkxT2FOOGc3dnR6TDlIOXRWaExpbkV4RnNpZW04eDVMSFVWMk53eUZhOXVpUU5aZ3p1ZzZsZmZVQXkvejd4M21JNTNGSHciLCJtYWMiOiI0ZWViMjYyNDE5YzM5ZmQ0YjI4ZGU3MjZiNGUyOTI2MDljN2VjNjcwZTRhODA1ZjE0NjA4YjhiNzU4ZmE1MzhhIiwidGFnIjoiIn0%3D
+        expires: 2022-04-21T01:45:18.000Z
+        maxAge: 7200
+        domain: 2964-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-20T20:23:36.680Z
+        lastAccessed: 2022-04-20T23:45:18.218Z
+        id: "7838503898668612"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImI0dy9VQmJ0YTZJR0ZiQUQ5ZXF6YVE9PSIsInZhbHVlIjoiR0FwZnFXdW5IdUc1NlJQTzlvc0pZMVQxcjlMOGRRSXVtenFpbzlhZHBLajVSOVYwWGNtd2FERm5CbUpzTFBNUFBwcVpFY0dWYlNla2RUeUZDVmRuRTBldDZVaXY5SzRBa1J6OEhnZUpzMTA4SVJxNW05SExyT0RzVUlyUUVkY3YiLCJtYWMiOiI3M2Y0ZjU2MmQ4NzU1YzkyNmU0ZDUzZjJiZjI4MDE0MzA2YzE4NTZlMzA5NDMyM2NkMjNmMjJmODA2NDZiNTA3IiwidGFnIjoiIn0%3D
+        expires: 2022-04-21T23:37:15.000Z
+        maxAge: 7200
+        domain: 371d-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-21T21:37:15.994Z
+        lastAccessed: 2022-04-21T21:37:15.994Z
+        id: "5917950703120798"
+      - key: cabp_development_session
+        value: eyJpdiI6IlNNWm9MN3FFUmxXTHVNL0ZWdG5GNkE9PSIsInZhbHVlIjoieFJGTWd3QU82VmFXZnVpamx4UHB6VVR6QUpleXdSNlJlYnNRSEVmL2dQam9ZQUlvM3F2dVZ5Z2dzeTgzczMrY1F3dGRrYld5NW9YMVJ5OXBlVUNkQ25FQXRzRWJibUQ0cXdvM3ZwWVFZUjErNVUrUzRvNGwzVk4rT05XTTFsMkoiLCJtYWMiOiIzNmIyMGQyMDUzNzlkYWZlN2EwNTIxMWJjMGNkY2EyM2FkYzM3ODUyOGIyZjVhMWU4NTc3NDBkYjI3ODg3MzFjIiwidGFnIjoiIn0%3D
+        expires: 2022-04-21T23:37:15.000Z
+        maxAge: 7200
+        domain: 371d-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-21T21:37:15.994Z
+        lastAccessed: 2022-04-21T21:37:15.994Z
+        id: "740927444059359"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Ik1sVWhBOFdjdXVMSmVwTlVLS24vQ2c9PSIsInZhbHVlIjoibFVub1BrdEJUUGhObTR2bXlVSU5vMm5PK1Q5K2k3Zys3MGQ1NEQrTVhuZ05iYS9wNkpnaktyN3cyV1JHQzdQUXE2aDlrdnVXVjQrSHNuS1NUSks0UythOWhJR1prYmpDTTg5NzRTMEREUUxvVlUzck9mdVZsM0VxOU1jaDdzWTQiLCJtYWMiOiIzZGMzNTc0NzRlNTI4YmM1ZjAyZDczOTY4MTUwMmUwODY0MjljZmJlZThkYzY5Y2RhMzRmNzJhOWZkYmUzM2M0IiwidGFnIjoiIn0%3D
+        expires: 2022-04-22T22:42:09.000Z
+        maxAge: 7200
+        domain: 0611-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-22T13:38:38.635Z
+        lastAccessed: 2022-04-22T20:42:09.812Z
+        id: "36678891965038796"
+      - key: cabp_development_session
+        value: eyJpdiI6InpjZjJaYThHYUtlZC80eFRmSHVBVFE9PSIsInZhbHVlIjoiNHo3bERjNHluWTUrSU52YS9iVEt3dHJiRUJhVkFlZFBqVkRPYXJNVXVrT0RBWE11bFZoLzFRS2ovYVI4dHJ5TVdFbE53dnM4K2ZEdElpcGM2YnAvRmxUc20xTmxySFJFQ1NBYVZnQUhBZVlUTkhoR09keFprZzJUeGpxb2dPRUQiLCJtYWMiOiI4MWQ2NTQ4M2I4NTA5MjY5NDFmMmM3YmJmMmQ1ZTZhMmZhNzg2YjY0ODM4M2I3OGU3NTYzOTg5YmNhNWY1Nzg5IiwidGFnIjoiIn0%3D
+        expires: 2022-04-22T22:42:09.000Z
+        maxAge: 7200
+        domain: 0611-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-22T13:38:38.636Z
+        lastAccessed: 2022-04-22T20:42:09.813Z
+        id: "7657041718735749"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Imp5TWg3dnJoY0Nuajd2Z1dUUHg1Wmc9PSIsInZhbHVlIjoianZQVjd1aGFJRUxFZVpCVDlvOGNIUHF0V1RqOUphNlBhdEM4WE5FYTZsRWdzVDNNRThVVlkyOG5KRlgxdnNibFdyRUFjUXYxeHdIdEdxZXJvTDhjNW12NlNkb3JONWUwazFwanc4YUJoMGdMYlBvSURaUjYvdS81WC9KV0lZb0QiLCJtYWMiOiI1NjNmMjRkNTgyYTVjNjRlMjBiZjI0MmFhOWRkOGY1ZWEwMDZiOTQ1NTZiNGJlYTFjMTA2NDg3ZDUxY2JiNTUzIiwidGFnIjoiIn0%3D
+        expires: 2022-04-25T19:10:22.000Z
+        maxAge: 7200
+        domain: 61fb-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-25T17:10:22.831Z
+        lastAccessed: 2022-04-25T17:10:22.831Z
+        id: "1068930042634646"
+      - key: cabp_development_session
+        value: eyJpdiI6Ijg4L0gxZnNSQndleFNLbFRaRWhiYnc9PSIsInZhbHVlIjoibUc5NnNQcEZUalRSbG9uaWRCeW8zaUhvVmpKdlcwSlhDS2RQU0hkdDk3SlVCczg4TUU3L3puVGloSjFEK2g3UDF1cGtBejlHeGJmaUVtZ0VXK0R2Z29HNjhucUNpdVhvUXFOdGFEZUlOdlY5c21hWHV6MXRwV3JzY2NvZ1M1b1MiLCJtYWMiOiJmNTNhZDE5YTdjMWJlMzVlMmQ1OWM5YjkzYWRlMWQ2MzdmZmE4MzE0MGFhNDgwZWZlODI3MmEyZmZlMTQ5ZjQ3IiwidGFnIjoiIn0%3D
+        expires: 2022-04-25T19:10:22.000Z
+        maxAge: 7200
+        domain: 61fb-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-25T17:10:22.831Z
+        lastAccessed: 2022-04-25T17:10:22.831Z
+        id: "13699507540527445"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6InpwVnBFZThPWG5VRzByYms5NjRDVFE9PSIsInZhbHVlIjoiZkRxQm94RmVYN2R1WDlvdGwrNHllclFxWFIwR1c0a3JxZkd6ZkFBRlFnWEpaeDRnTmJ2OVVMVEF3UWdiUGxvc2lyNmJpOWR0Yi96blhCTDlnL1dJbys2MGNWOGplbEhpY3hCeXQ0dG9WZVpMbDRJMjVCdUFLbElNUmZaMEpvMngiLCJtYWMiOiIzM2ZkMWMwY2MxNjE2YTExOGFiMjg3ODhlZmYxZjRmNWM2MmMyNGNhNTUzMDMwZmZiMTdkOGZkMDg5NGU4ZjlhIiwidGFnIjoiIn0%3D
+        expires: 2022-04-25T23:41:43.000Z
+        maxAge: 7200
+        domain: 0e80-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-25T21:17:24.770Z
+        lastAccessed: 2022-04-25T21:41:44.557Z
+        id: "5014533661604874"
+      - key: cabp_development_session
+        value: eyJpdiI6IjFDZnVtTVZ1a0ptamVkTUdUTU1iK2c9PSIsInZhbHVlIjoiQUNuNGR5Tm5XaEgwVTkyM1U3RWlza2gxNGJIZGFYWnM1SmhEekxWRkRBZmZ5WnA2aHFTd1QyWkJURkhwVUZmMmppUDBvbW1jZngyQ3c1ZW90N25vd2ZxaHptem5jbDBFZ2FBMWlWWHo5cVZPMzRvcjdhT05OZ3NCZUpQa3IwckIiLCJtYWMiOiI2YzYwN2I0ZTM4YjcyODZlNzZkY2ZiYzE2NTUwMWUxZjdhYjkwNmNhMmU5ZmI4N2VlNjA3YTgxNGViOGMyNWM3IiwidGFnIjoiIn0%3D
+        expires: 2022-04-25T23:41:43.000Z
+        maxAge: 7200
+        domain: 0e80-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-25T21:17:24.770Z
+        lastAccessed: 2022-04-25T21:41:44.557Z
+        id: "3084705982957474"
+      - key: artplacer_session
+        value: eyJpdiI6Ik8zcGU1R2xVS1FNS2p0SDB6L3JBNVE9PSIsInZhbHVlIjoiQzFTMkdBTXJCcU8vUnNjSFBGSHZNUHFnODdwZ25MM3RSeWZEOFNHZWVvbHBMcnU5c2hJbkZFMjY5ZERHRmlWVmdUbE90aUs5MzN3aERwdW5iN25PQ3Zla016MlFIdDM3ejdOOGpLYnpxcmFoNVJVZGk0aHVoZmt4bDNpM1k3UUMiLCJtYWMiOiI1ZWZjYTlhNTg1ZjljNDlhYTZjYmM3M2Y2ZmZlYjc0NThhNjYzMTY4MGJiMThmOWFhNzg4MmQ1YmE1ZWFiYWNhIiwidGFnIjoiIn0%3D
+        expires: 2022-07-07T22:05:27.000Z
+        maxAge: 7200
+        domain: shop-app.artplacer.com
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-27T22:12:29.590Z
+        lastAccessed: 2022-07-07T20:05:27.177Z
+        id: "7851145296989577"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IkRiMHJlc0V4SzZYTWJLc09sL1RYUGc9PSIsInZhbHVlIjoialI3aWM1Zm1nckEzaHlIYldxbTMybEd0RjQvNSthYmYwK0ZWbnlWUFVlNVNZRElUVW11cmdCMU1kS0NQeFk2eElGUXM3RHplVGU4eEV1MldJNThGbDEvVkxlQUxCSUZjM3B5blAzejVJeVZjeUFWeGdkWkVpc1JBSUg2RzVFRCsiLCJtYWMiOiIwMDgwNTAxZmVkMTViYWRhMTA2MWY0ZWY1YTNiMmU4Yzg0M2RmOTAwYzUzYTI2ODBhMDUyNzAwY2UzNmRkMDc2IiwidGFnIjoiIn0%3D
+        expires: 2022-04-29T23:16:33.000Z
+        maxAge: 7200
+        domain: 7f84-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-29T21:16:33.825Z
+        lastAccessed: 2022-04-29T21:16:33.825Z
+        id: "2448513175558671"
+      - key: cabp_development_session
+        value: eyJpdiI6IjN3QzlaMURvRktkM1JvY1RUT0dIRHc9PSIsInZhbHVlIjoibVowUEtKdGptVk00ZnRUNHErRGw1ZXJ1UUVCS2JuZ0F1L3Y3cDJ0L2E4SEIrQTlnazJrZlJBLzFLL0lVWFY4MWxWNi9iay9pNG5FNENzMVhSRUNCRDdEOGwrdmg1YTh5UFJCeDE5MVpEaUluZkpNVC9Ibjl0cnZScFVVVW5xUEoiLCJtYWMiOiI3M2YxOTVlMGFiNjlkMzYxMWI5N2M3MDkzYjQxZWIxNTNjNmU1NmYzNThjODE4OWZlNWE1OGQ3YmMxODk2ZGViIiwidGFnIjoiIn0%3D
+        expires: 2022-04-29T23:16:33.000Z
+        maxAge: 7200
+        domain: 7f84-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-04-29T21:16:33.825Z
+        lastAccessed: 2022-04-29T21:16:33.825Z
+        id: "6551800155617469"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IktWVFUzclVabDBScFRwNER5Mlp0WGc9PSIsInZhbHVlIjoiQU40ODBXWVlEdkkzTnV6QW42NmUrQ1M2anpqM28wMEREUzdaaHpIMkFTTXF0akhlVGNucXBWZTZldmhYVXMxb2lsODZ6TjVCcjhuc0JCUndmSnB5bE5LcTZZOFhHaTFqbm1qdEYzY1FLSnUxOXlzRlU5U1Z1Rm9zZDdqRjg0bzkiLCJtYWMiOiIyOGNkZGRhNjg2ZGFkMjkxNzEwNjg2Zjc2YmQ3MmE0Yjk4ZWFkYjRiMzUwMzk5Njk4OTUyYzk3MWFjZGJjN2FkIiwidGFnIjoiIn0%3D
+        expires: 2022-05-11T03:01:21.000Z
+        maxAge: 7200
+        domain: 7ac0-179-49-61-124.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-11T00:56:59.772Z
+        lastAccessed: 2022-05-11T01:01:22.094Z
+        id: "5083452589857789"
+      - key: cabp_development_session
+        value: eyJpdiI6ImlVOEM0YjNZZzFHaTFjNkdqOVNkTkE9PSIsInZhbHVlIjoiQkdydWJvNmhteXNrM1ErazdEeWk2Rk1WOWlXZHFkd2UzQXBiSkJXU3hrUzZxQTVEN1F6WXg4SEROMTEwZkZLQ1BidXBCWE9vQXc5TDNqaElaemhxblJibWozWFpnbUIwdjBQTjBTWWtVNWxsNnlVK2FOWUxtbUhqa2N0anIzZU4iLCJtYWMiOiIyNjc2YzY3OTk3Yjc5YjljZTlkNDcwYzVlNWZkOGY3ZTdjMDdkOTIxMGE4ZGZiZWZkNmUwN2JkY2ZkZTU3ZWE2IiwidGFnIjoiIn0%3D
+        expires: 2022-05-11T03:01:21.000Z
+        maxAge: 7200
+        domain: 7ac0-179-49-61-124.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-11T00:56:59.772Z
+        lastAccessed: 2022-05-11T01:01:22.094Z
+        id: "4480096507683897"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImZNbXdJRUN5Y3A4aVFvaXNINjZwMkE9PSIsInZhbHVlIjoiNGw1cjhlRE00MjI2VnBETkhjOGhyWWlka2hEa0phZ1JSbUF5VWxhZjZ6UENsNkVWZlBwb01YUGlsSlliVHdZejZ6Q1V4YUxBMXIzbW4vcGljY2p5QXBwbDk1MlBNUmM1L0JjREtGM3kxcG9FNk9WRW8wUnhLbWx6VnMzZzRpaW4iLCJtYWMiOiI1OGVhNzAxZWQ0YTdiOTFlMTlkZTE0ZjNhNDY2NzJhODA0NGY5MjgzNmZiNjUzYmE2MDZjMGU2ODU0NjczZmIyIiwidGFnIjoiIn0%3D
+        expires: 2022-05-11T05:54:11.000Z
+        maxAge: 7200
+        domain: d14b-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-11T03:54:11.893Z
+        lastAccessed: 2022-05-11T03:54:11.893Z
+        id: "7640259503485016"
+      - key: cabp_development_session
+        value: eyJpdiI6IlZ3VHI1Tk92QXdhUVpTUDdvSEp6aEE9PSIsInZhbHVlIjoidVNMYzFKN04xSVV1NDlNQ1lHdHZvTmJKZmE4dFc3NndsYzRkVERFYXVqdHVTdElTY2NObjd2YnlPUTFFMEt1NkZDNXZFRWpmY0Q4cUZJNzVmaDNrN2NSeUN3d0tJQjJmeGN1NmlQV3ZJVkM0V0tmWHB2UFZuU3dIelJVbzN2ME8iLCJtYWMiOiJlMzRkM2VkZWE1MjA2OTdmM2IzMjgxOGQyOWM3N2ZmNzUwYzA0NGFkYThiZjE2NGM1YjBhNmUyOTU5YTVjOWE4IiwidGFnIjoiIn0%3D
+        expires: 2022-05-11T05:54:11.000Z
+        maxAge: 7200
+        domain: d14b-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-11T03:54:11.893Z
+        lastAccessed: 2022-05-11T03:54:11.893Z
+        id: "5690791758397762"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6Ik1QZm9YREF4eHhISTdFZWlHYmQrcFE9PSIsInZhbHVlIjoiUVhUSGNiZ0FYS0Q2V2oxckF5ZlYxbm5SeWQ2RXZlbXhadDNISE9jalFkNnIwY09veWI2bUM5UXkyT09OdGE4RVFRWmVJazgzY3VkNm5sdkk4K1YzVXJXYUNqdTdrWmNZRTZDUmg2QjVlUER0L29tNXlLQXcreUlSUVNkbk5SK28iLCJtYWMiOiJiYjNmNTA0YjhlM2JlMjQ1ZmY3MDI2OGQ1YmE4ODM1M2IyMTU1Y2VhNmIzZDNmODg1ZDIxMjczMDMwZTlhMTNkIiwidGFnIjoiIn0%3D
+        expires: 2022-05-13T07:09:43.000Z
+        maxAge: 7200
+        domain: 3eb9-179-49-61-120.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-12T17:20:57.266Z
+        lastAccessed: 2022-05-13T05:09:43.270Z
+        id: "7047494530311611"
+      - key: cabp_development_session
+        value: eyJpdiI6IklXbTRPTElFcy9JcFRNVGFWVENjeVE9PSIsInZhbHVlIjoiZ01qNkNrYk05cXRSbTVGZFVvTGgrbXJweHJNZnc2b2V1NnRKVXRJdDVVbVlrekgxQjNxMW5LUUdoWWNwZTJDeUVDSVdpV0dIYlpIdEYxYStzbTZjSXNkMW5uS2J3ZEhvZGRpbkhZNVEvT0dJMll3dWtkVDZtOHIxTEZ5c3A5dGEiLCJtYWMiOiIxZGEwODVmYWUyOGM5NDMzMjU5YTg3YWE3MjQ2NjliZDU4YzVlMTQ5NjdkYTgxMDIyMzk3OWNiYTkwNWQxYzAwIiwidGFnIjoiIn0%3D
+        expires: 2022-05-13T07:09:43.000Z
+        maxAge: 7200
+        domain: 3eb9-179-49-61-120.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-05-12T17:20:57.266Z
+        lastAccessed: 2022-05-13T05:09:43.270Z
+        id: "8965618313529315"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IkNaekdFSUdYZzNNNjdqVHQ4SXh1aFE9PSIsInZhbHVlIjoiRE5INHNqU1NtY1gwbVNDVFgwQVYxNzNNRWdhU2lqdzZMUjFaUzNVWmliVzhRWjhpRDh0TU5SK0FseE44WlA3aGZtNWtnUldXWkowRHNrdWZNeXAyc1J0MU8yUVVoSDZYN0NwWEhXa1RLTkZmTDZNSVE0RTN4RWpWY21TN1h0RGQiLCJtYWMiOiIxYzUwOWQ3Y2FkYzc3NGIxNDRkYzVlNWEwNDEwNGRlZTUxYTIxOWNlNGU3MTU3MGY5YjYxODg0ZjMyNjg1MTg1IiwidGFnIjoiIn0%3D
+        expires: 2022-06-14T04:25:39.000Z
+        maxAge: 7200
+        domain: fecb-179-49-61-126.ngrok.io
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-06-14T02:25:39.635Z
+        lastAccessed: 2022-06-14T02:25:39.635Z
+        id: "4861269209607062"
+      - key: cabp_development_session
+        value: eyJpdiI6InVDK2dxdGk0ZkZtRSt1ZVIrd05IY2c9PSIsInZhbHVlIjoic1pQV3dWSjVZY3JtTlBUT1NRQno2RjV1YWZXRW9tNHRLSFdvcSs2Y09ZUVhVL3RJMTd1TmxWQWI1L1VXenMvaEhKSmF2cm84SC9LUWdwNzBmc2d3Um1hc0RDeFlBbkhjYXBpMllHSDFBSEdqTXVnUW1wY0JMMWJabmErTklmZHUiLCJtYWMiOiI4MTIyYzM0ODg0ZjM2ZWNiMmQzYzI5NTQyMDU1NmY0YjFjMGVjMTBhNDE3MmQ4Y2Q3MTYwYmJiODRlY2QwMWM1IiwidGFnIjoiIn0%3D
+        expires: 2022-06-14T04:25:39.000Z
+        maxAge: 7200
+        domain: fecb-179-49-61-126.ngrok.io
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-06-14T02:25:39.636Z
+        lastAccessed: 2022-06-14T02:25:39.636Z
+        id: "8839281181546126"
+    _type: cookie_jar
+  - _id: spc_42c0b37621bd42b983f8372833a68353
+    parentId: wrk_b3f514b23b34445fa9d59e4ad620ff10
+    modified: 1612397532759
+    created: 1612397532759
+    fileName: Insomnia
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_7f5d375cde3b47ff99ade62bd1220459
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1657669528730
+    created: 1634188188674
+    name: ArtPlacer Shopify - Prod
+    data:
+      env: production
+      apiKey: ""
+      api_version: 2021-07
+      protocol: https
+      host: shop-app.artplacer.com
+    dataPropertyOrder:
+      "&":
+        - env
+        - apiKey
+        - api_version
+        - protocol
+        - host
+    color: "#55a6ec"
+    isPrivate: false
+    metaSortKey: 2
+    _type: environment
+  - _id: env_ccb605ff42e449fe91b014ce5ba9411f
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1656711239975
+    created: 1634188220066
+    name: ArtPlacer Shopify - Staging
+    data:
+      shop_name: artplacer-shop-test
+      api_key: 3c07067d45ba9a613930edc44be81865
+      api_secret: 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
+      api_version: 2021-07
+      protocol: https
+      host: artplacer-shopify-staging.herokuapp.com
+    dataPropertyOrder:
+      "&":
+        - shop_name
+        - api_key
+        - api_secret
+        - api_version
+        - protocol
+        - host
+    color: "#f5a519"
+    isPrivate: false
+    metaSortKey: 3
+    _type: environment
+  - _id: env_eac70a2b66e347369e7e165b2586641b
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1657297546802
+    created: 1644944525495
+    name: ArtPlacer - Shopify Local
+    data:
+      shop_name: artplacer-shop-test
+      api_key: 3c07067d45ba9a613930edc44be81865
+      api_secret: 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
+      api_version: 2021-07
+      protocol: https
+      host: b8b0-179-49-61-120.ngrok.io
+    dataPropertyOrder:
+      "&":
+        - shop_name
+        - api_key
+        - api_secret
+        - api_version
+        - protocol
+        - host
+    color: "#249eeb"
+    isPrivate: false
+    metaSortKey: 4
+    _type: environment
+  - _id: env_4f7e81facfb545cab03084e0091c3a79
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1656711239935
+    created: 1646971305058
+    name: Uma CSCM
+    data:
+      host: https://erp.carlos-bucheli.com
+      baseUrl: api/index.php
+      dolapikey: Pq5tZP3mChYp
+      countryIdUsa: 11
+    dataPropertyOrder:
+      "&":
+        - host
+        - baseUrl
+        - dolapikey
+        - countryIdUsa
+    color: "#4ea117"
+    isPrivate: false
+    metaSortKey: 1
+    _type: environment
+  - _id: env_3d5d27712aa444e182cb4bb312b1eac8
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1656711239976
+    created: 1652732279054
+    name: ArtPlacer API - Local
+    data:
+      env: local
+      protocol: http
+      host: artplacer-api.local
+    dataPropertyOrder:
+      "&":
+        - env
+        - protocol
+        - host
+    color: "#249eeb"
+    isPrivate: false
+    metaSortKey: 5
+    _type: environment
+  - _id: env_507d2c58dce04987b97ab3f986ca476c
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1656711239978
+    created: 1652732834517
+    name: ArtPlacer API - Staging
+    data:
+      env: staging
+      protocol: https
+      host: artplacer-api-staging.herokuapp.com
+    dataPropertyOrder:
+      "&":
+        - env
+        - protocol
+        - host
+    color: "#f5a519"
+    isPrivate: false
+    metaSortKey: 6
+    _type: environment
+  - _id: env_c9e8d8d3d4d34717aedbc9600c655a59
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1657669536889
+    created: 1656711224028
+    name: Helios (Local)
+    data:
+      protocol: http
+      host: api.helios-gas.net
+    dataPropertyOrder:
+      "&":
+        - protocol
+        - host
+    color: "#0d89e7"
+    isPrivate: false
+    metaSortKey: 0
+    _type: environment
+  - _id: env_a8281ec7e1b04319a5307bb072f400c5
+    parentId: env_5495e47bd5894f38b4538e165043fbfb52732808
+    modified: 1657669562106
+    created: 1657669539823
+    name: Geometry Calc
+    data:
+      protocol: http
+      host: geometry-calc.local
+    dataPropertyOrder:
+      "&":
+        - protocol
+        - host
+    color: null
+    isPrivate: false
+    metaSortKey: 1657669539823
+    _type: environment

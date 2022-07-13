@@ -1,0 +1,4 @@
+parameters:
+  geometry_calc.url_404: 'https://carlos-bucheli.com/404.html'
+  # Update the next line accordingly
+  geometry_calc.ip_requester: '127.0.0.1'

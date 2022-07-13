@@ -1,0 +1,8 @@
+symiddleware:
+#  global:
+#    - App\Middleware\TestMiddleware
+  groups:
+    security:
+      middlewares:
+        - 'App\Middleware\RequestMiddleware'
+        - 'App\Middleware\AuthMiddleware'
